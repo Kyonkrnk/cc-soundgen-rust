@@ -23,7 +23,7 @@ pub static SOUND_MAP: Lazy<HashMap<i32, (&[u8], &'static str)>> = Lazy::new(|| {
         (16, (&include_bytes!("../sounds/critical_connect.pcm")[..], "critical_connect")),
         (18, (&include_bytes!("../sounds/trace.pcm")[..], "trace")),
         (19, (&include_bytes!("../sounds/trace_flick.pcm")[..], "tflick")),
-        (20, (&include_bytes!("../sounds/clitical_trace.pcm")[..], "ctrace")),
+        (20, (&include_bytes!("../sounds/critical_trace.pcm")[..], "ctrace")),
     ])
 });
 
