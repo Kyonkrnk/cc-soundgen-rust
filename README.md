@@ -1,6 +1,6 @@
-# pjsekai-soundgen-rust / Rust版プロセカ風譜面音声生成ツール
+# cc-soundgen-rust / Rust版プロセカ風譜面音声生成ツール
 
-pjsekai-soundgen-rust は、[SweetPotato](https://potato.purplepalette.net)の譜面から音声を生成するツール、[pjsekai-soundgen](https://github.com/sevenc-nanashi/pjsekai-soundgen)のRust版です。
+pjsekai-soundgen-rust は、[SweetPotato](https://cc.sevenc7c.com)の譜面から音声を生成するツール、[pjsekai-soundgen](https://github.com/sevenc-nanashi/pjsekai-soundgen)のRust版です。
 
 ## 必須事項
 
@@ -9,14 +9,14 @@ pjsekai-soundgen-rust は、[SweetPotato](https://potato.purplepalette.net)の�
 ## 利用方法
 
 0. ffmpeg をインストールする。
-1. 右のReleasesからpjsekai-soundgen-rust.exeをダウンロードする。
+1. 右のReleasesからcc-soundgen-rust.exeをダウンロードする。
 
 ## 注意
 
-動画の概要欄などに、自分（=名無し｡）の
+動画の概要欄などに、このツールの作者（=名無し｡さん）の
 
 - 名前（`名無し｡`）
-- このリポジトリへのリンク
+- 本家リポジトリへのリンク
 - `https://sevenc7c.com`へのリンク
 
 が含まれている文章を載せて下さい。
