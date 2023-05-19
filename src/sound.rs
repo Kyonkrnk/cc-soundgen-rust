@@ -21,6 +21,9 @@ pub static SOUND_MAP: Lazy<HashMap<i32, (&[u8], &'static str)>> = Lazy::new(|| {
         (14, (&include_bytes!("../sounds/tap.pcm")[..], "slide_tap")),
         (15, (&include_bytes!("../sounds/critical_flick.pcm")[..], "critical_flick")),
         (16, (&include_bytes!("../sounds/critical_connect.pcm")[..], "critical_connect")),
+        (18, (&include_bytes!("../sounds/trace.pcm")[..], "trace")),
+        (19, (&include_bytes!("../sounds/trace_flick.pcm")[..], "tflick")),
+        (20, (&include_bytes!("../sounds/clitical_trace.pcm")[..], "ctrace")),
     ])
 });
 
@@ -31,6 +34,9 @@ pub static NOTE_NAME_MAP: Lazy<HashMap<&'static str, &'static str>> = Lazy::new(
         ("slide_tap", "スライド始点/終点"),
         ("slide_tick", "スライド中継点"),
         ("connect", "ロング"),
+        ("trace", "トレース"),
+        ("tflick", "トレースフリック"),
+        ("ctrace", "金トレース")
     ])
 });
 
