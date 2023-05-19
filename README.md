@@ -32,6 +32,7 @@ pjsekai-soundgen-rust は、[Chart Cyanvas](https://cc.sevenc7c.com)の譜面か
 ## 謝辞
 
 sounds フォルダ内は[mkpoli/paletteworks](https://github.com/mkpoli/paletteworks)からのものです。
+※トレースノーツ音はChart CyanvasのEffectAudioより拝借しています
 
 ## ライセンス
 
